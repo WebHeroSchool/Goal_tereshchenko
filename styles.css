@@ -1,15 +1,11 @@
-.title {
-  font-family: Roboto;
-}
-
 body {
+    font-family: Roboto;
     margin: 0;
 }
 
 .wrapper {
     margin: auto;
     width: 80%;
-    border: dashed 1px red;
 }
 
 .header {
@@ -28,7 +24,6 @@ body {
 
 .menu__item {
     padding: 0 13px;
-    border: dashed 1px red;
 }
 
 .menu__item:last-child {
