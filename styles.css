@@ -153,11 +153,19 @@ body {
   }
 
   .logo {
-    padding-top: 45px;
+    padding-top: 40px;
+  }
+
+  .menu__item {
+    margin-right: 26px;
+  }
+
+  .header {
+    margin-bottom: 85px;
   }
 
   .main {
-    padding-top: 3px;
+    padding-top: 18px;
   }
 
   .main__button {
@@ -173,6 +181,11 @@ body {
 
   .wrapper {
     width: 87%;
+  }
+
+  .logo__circle {
+    left: 0;
+    top: 47%;
   }
 
   .burger-menu {
@@ -220,11 +233,11 @@ body {
   }
 
   .logo {
-      padding-top: 40px;
+    padding-top: 40px;
   }
 
   .logo__circle {
-    left: 0px;
+    left: 0;
   }
 
   .logo__circle_color_blue {
@@ -232,7 +245,7 @@ body {
   }
 
   .menu__item {
-      margin-right: 27px;
+    margin-right: 27px;
   }
 
   .menu__item:last-child {
@@ -246,7 +259,8 @@ body {
   }
 
   .main__button {
-    padding: 14px 22px;
+    padding: 13px 25px 14px 16px;
+    letter-spacing: .1px;
   }
 }
 
