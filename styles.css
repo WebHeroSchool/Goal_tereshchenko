@@ -23,8 +23,8 @@ body {
 
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: -1px;
+  top: 49%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -37,8 +37,8 @@ body {
 }
 
 .logo__circle_color_blue {
-  left: 8px;
-  top: 56%;
+  left: 7px;
+  top: 55%;
   background: #c8dbfb;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 28px;
   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -57,7 +57,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 2px;
 }
 
 .menu__item::after {
@@ -183,26 +183,30 @@ body {
   }
 
   .header {
-    margin-bottom: 28px;
+    top: 24px;
+    margin-bottom: 11px;
   }
 
   .main__title {
-    margin-bottom: 31px;
+    margin: 17px 0 31px 0;
     font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin: 0 0 44px 0;
+    max-width: 255px;
+    margin: 0 auto 25px auto;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    text-align: center;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    padding: 14px 22px;
+    padding: 14px 21px;
   }
 
   .main {
     padding-top: 73%;
+    background-size: 83%;
   }
 }
 
@@ -211,9 +215,33 @@ body {
     width: 68%;
   }
 
+  .header {
+    margin-bottom: 86px;
+  }
+
+  .logo {
+      padding-top: 40px;
+  }
+
+  .logo__circle {
+    left: 0px;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+  }
+
+  .menu__item {
+      margin-right: 27px;
+  }
+
+  .menu__item:last-child {
+    margin-right: 3px;
+  }
+
   .main {
-    padding: 3px 58% 100px 0;
-    background-size: contain;
+    padding: 17px 58% 100px 0;
+    background-size: auto;
     background-position: top right;
   }
 
@@ -228,11 +256,15 @@ body {
   }
 
   .logo {
-    padding-top: 40px;
+    padding-top: 41px;
   }
 
   .menu__item {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .header {
+    margin-bottom: 100px;
   }
 
   .main__title {
@@ -243,6 +275,7 @@ body {
   .main__subtitle {
     margin: 0 0 41px 0;
     font: normal 22px/26px Roboto, arial, helvetica, sans-serif;
+    max-width: 455px;
   }
 
   .main__button {
