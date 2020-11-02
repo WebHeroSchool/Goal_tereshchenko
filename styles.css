@@ -184,7 +184,7 @@ body {
   }
 
   .logo__circle {
-    left: 0px;
+    left: 0;
     top: 47%;
   }
 
@@ -237,7 +237,7 @@ body {
   }
 
   .logo__circle {
-    left: 0px;
+    left: 0;
   }
 
   .logo__circle_color_blue {
