@@ -233,7 +233,7 @@ body {
   }
 
   .logo {
-      padding-top: 40px;
+    padding-top: 40px;
   }
 
   .logo__circle {
@@ -245,7 +245,7 @@ body {
   }
 
   .menu__item {
-      margin-right: 27px;
+    margin-right: 27px;
   }
 
   .menu__item:last-child {
@@ -260,7 +260,7 @@ body {
 
   .main__button {
     padding: 13px 25px 14px 16px;
-    letter-spacing: 0.1px;
+    letter-spacing: .1px;
   }
 }
 
