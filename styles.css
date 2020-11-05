@@ -275,11 +275,7 @@ body {
   }
 
   .menu__item {
-<<<<<<< HEAD
     margin-right: 27px;
-=======
-      margin-right: 27px;
->>>>>>> origin/master
   }
 
   .menu__item:last-child {
@@ -293,12 +289,8 @@ body {
   }
 
   .main__button {
-<<<<<<< HEAD
     padding: 13px 25px 14px 16px;
     letter-spacing: .1px;
-=======
-    padding: 14px 22px;
->>>>>>> origin/master
   }
 }
 
