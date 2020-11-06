@@ -32,11 +32,11 @@ body {
   opacity: .7;
 }
 
-.logo__circle_color_dark-blue {
+.logo__circle_color-dark-blue {
   background: #0056ec;
 }
 
-.logo__circle_color_blue {
+.logo__circle_color-blue {
   left: 7px;
   top: 55%;
   background: #c8dbfb;
@@ -213,11 +213,6 @@ body {
     width: 87%;
   }
 
-  .logo__circle {
-    left: 0;
-    top: 47%;
-  }
-
   .burger-menu {
     height: 17px;
     display: inline-flex;
@@ -270,7 +265,7 @@ body {
     left: 0;
   }
 
-  .logo__circle_color_blue {
+  .logo__circle_color-blue {
     left: 8px;
   }
 
